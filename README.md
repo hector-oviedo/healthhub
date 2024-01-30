@@ -69,17 +69,17 @@ HealthHub is designed to allow both administrators and users with specific funct
 # Project Structure
 
 ## Root Directory
-
-`/
+```
+/
 ├── docker-compose.yml
 ├── envTEMPLATE
 ├── README.md
 ├── backend/
-└── frontend/`
-
+└── frontend/
+```
 ## Backend Structure
-
-`backend/
+```
+backend/
 │
 ├── classes/
 │ ├── habit_tracker.py
@@ -95,11 +95,11 @@ HealthHub is designed to allow both administrators and users with specific funct
 ├── app.py
 ├── data_simulator.py
 ├── Dockerfile
-└── requirements.txt`
-
+└── requirements.txt
+```
 ## Frontend Structure
-
-`frontend/
+```
+frontend/
 │
 ├── public/
 │ ├── css/
@@ -134,8 +134,8 @@ HealthHub is designed to allow both administrators and users with specific funct
 ├── app.js
 ├── Dockerfile
 ├── package-lock.json
-└── package.json`
-
+└── package.json
+```
 ### Notes
 
 - Ensure to review and update the Docker configurations and dependencies as per your project requirements.

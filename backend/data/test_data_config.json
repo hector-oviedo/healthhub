@@ -1,0 +1,37 @@
+{
+    "test_user": {
+        "username": "testuser",
+        "password": "1234",
+        "email": "testuser@test.com",
+        "name": "Test User"
+    },
+    "habits": [
+        {"name": "Breakfast", "type": "daily", "category": "Food", "subcategory": "Meal", "description": "Morning meal"},
+        {"name": "Lunch", "type": "daily", "category": "Food", "subcategory": "Meal", "description": "Midday meal"},
+        {"name": "Dinner", "type": "daily", "category": "Food", "subcategory": "Meal", "description": "Evening meal"},
+        {"name": "Workout", "type": "daily", "category": "Exercise", "subcategory": "Gym", "description": "Daily workout"},
+        {"name": "Study", "type": "daily", "category": "Education", "subcategory": "Learning", "description": "Study session"},
+        {"name": "Leg Day Routine", "type": "weekly", "category": "Exercise", "subcategory": "Gym", "description": "Weekly leg workout"},
+        {"name": "Socialization Activity", "type": "weekly", "category": "Social", "subcategory": "Activity", "description": "Weekly social activity"}
+    ],
+    "simulation": {
+        "expected_simulated_time": 28,
+        "habit_time_ranges": {
+            "Breakfast": {"start": "06:00", "end": "09:00"},
+            "Lunch": {"start": "11:00", "end": "14:00"},
+            "Dinner": {"start": "18:00", "end": "21:00"},
+            "Workout": {"start": "07:00", "end": "10:00"},
+            "Study": {"start": "09:00", "end": "12:00"},
+            "Leg Day Routine": {"start": "07:00", "end": "10:00"},
+            "Socialization Activity": {"start": "19:00", "end": "22:00"}
+        },
+        "custom_habits": [
+            {"name": "Morning Walk", "type": "daily", "category": "Exercise", "subcategory": "Outdoor Activity", "description": "A refreshing walk to start the day", "start": "05:00", "end": "06:00"},
+            {"name": "Evening Meditation", "type": "daily", "category": "Wellness", "subcategory": "Mindfulness", "description": "A calming meditation session in the evening", "start": "20:00", "end": "21:00"},
+            {"name": "Reading Time", "type": "daily", "category": "Personal Development", "subcategory": "Education", "description": "Dedicated time for reading and learning", "start": "21:00", "end": "22:00"},
+            {"name": "Weekend Hike", "type": "weekly", "category": "Exercise", "subcategory": "Outdoor Activity", "description": "Weekly hiking to explore nature and exercise", "start": "08:00", "end": "11:00"},
+            {"name": "Movie Night", "type": "weekly", "category": "Entertainment", "subcategory": "Movies", "description": "Relaxing movie night", "start": "20:00", "end": "23:00"},
+            {"name": "Brunch", "type": "weekly","category": "Social", "subcategory": "Food", "description": "Enjoy a late morning brunch with friends on Sundays", "start": "10:00", "end": "12:00"}
+        ]
+    }
+}

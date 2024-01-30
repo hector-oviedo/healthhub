@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>APP</title>
+
+<!-- FontAwesome 6.4.0 CSS -->
+<link href="css/all.min.css" rel="stylesheet">
+<!-- Bootstrap 5.3.2 CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- Styles -->
+<link href="css/styles.css" rel="stylesheet">
+<script>var backendUrl = "<%= backendUrl %>";</script>
+</head>
+
+<body data-bs-theme="dark"><div>
+
+<header id="header-container" class="text-center"><h1 id="page-title">Home</h1></header>
+
+<section id="body-container" class="text-center"><canvas id="myChartElementId" width="500" height="500"></canvas></section>
+
+<footer id="footer-container" class="d-flex justify-content-around">
+    <div id="home" class="menu-item" onclick="loadSection('home')">
+        <i class="fa-solid fa-circle-user"></i>
+        <div class="menu-text">LOG IN</div>
+    </div>
+    <div id="users" class="menu-item" onclick="loadSection('users')">
+        <i class="fa-solid fa-circle-user"></i>
+        <div class="menu-text">USERS</div>
+    </div>
+    <div id="habits" class="menu-item" onclick="loadSection('habits')">
+        <i class="fa-solid fa-calendar-day"></i>
+        <div class="menu-text">HABITS</div>
+    </div>
+</footer>
+
+<!-- JQuery 3.6.4 JavaScript -->
+<script src="libs/jquery.min.js"></script>
+<!-- Bootstrap 5.3.2 JavaScript -->
+<script src="libs/bootstrap.min.js"></script>
+<!-- FontAwesome 6.4.0 JavaScript -->
+<script src="libs/all.min.js"></script>
+
+<!-- Engine -->
+<script src="src/utils.js"></script>
+<script src="src/services.js"></script>
+<script src="src/content.manager.js"></script>
+<script src="src/admin/script.js"></script>
+</div></body>
+</html>

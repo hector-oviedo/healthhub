@@ -70,16 +70,16 @@ HealthHub is designed to allow both administrators and users with specific funct
 
 ## Root Directory
 
-/
+`/
 ├── docker-compose.yml
 ├── envTEMPLATE
 ├── README.md
 ├── backend/
-└── frontend/
+└── frontend/`
 
 ## Backend Structure
 
-backend/
+`backend/
 │
 ├── classes/
 │ ├── habit_tracker.py
@@ -95,11 +95,11 @@ backend/
 ├── app.py
 ├── data_simulator.py
 ├── Dockerfile
-└── requirements.txt
+└── requirements.txt`
 
 ## Frontend Structure
 
-frontend/
+`frontend/
 │
 ├── public/
 │ ├── css/
@@ -134,7 +134,7 @@ frontend/
 ├── app.js
 ├── Dockerfile
 ├── package-lock.json
-└── package.json
+└── package.json`
 
 ### Notes
 

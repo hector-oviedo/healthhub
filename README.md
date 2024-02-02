@@ -6,7 +6,7 @@ This project supports setup using Docker Compose for ease of deployment, as well
 
 ### Using Docker Compose
 - Prerequisites: Ensure Docker and Docker Compose are installed on your machine.
-- Configuration: Set up the required `.env` variables (listed below).
+- Configuration: Set up the required `.env` variables.
 - Starting the Application: Run `docker-compose up` from the root directory to start all services.
 
 ## Manual Setup
@@ -33,16 +33,15 @@ Here's a breakdown of the .env variables used in HealthHub:
 - `BACKEND_PORT` and `FRONTEND_PORT` set the ports for the backend and frontend services.
 - `SIMULATION_*` variables relate to the data simulation script for generating test data.
 
-
-## Data Simulation
-
-To meet the project's requirement for 4 weeks of simulated data, a Python script is included (`backend/data_simulator.py`) to generate test data based on the provided configuration in `data/test_data_config.json`.
-
 ## Usage
 
 Once both the backend and frontend are operational, you should see messages indicating that they are running correctly. For the frontend, look for a message similar to "Frontend running at http://localhost:3000". The backend should indicate it's running on multiple addresses, including http://127.0.0.1:5000 and potentially others, along with logs for other activities, an active debugger, and a debugger PIN.
 
 After setup, access the application by navigating to `http://localhost:3000/admin` for the admin interface and `http://localhost:3000` for the user interface in your web browser.
+
+## Data Simulation
+
+To meet the project's requirement for 4 weeks of simulated data, a Python script is included (`backend/data_simulator.py`) to generate test data based on the provided configuration in `data/test_data_config.json`.
 
 ## Features
 

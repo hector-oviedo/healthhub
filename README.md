@@ -9,7 +9,7 @@ This project supports setup using Docker Compose for ease of deployment, as well
 - Configuration: Set up the required `.env` variables.
 - Starting the Application: Run `docker-compose up` from the root directory to start all services.
 
-## Manual Setup
+### Manual Setup
 If you prefer not to use Docker, follow these steps to manually set up each component:
 
 ### MongoDB (Version 5.0 Recommended)
@@ -50,10 +50,14 @@ HealthHub is designed to allow both administrators and users with specific funct
 
 ### For Administrators:
 
+Access at: `http://localhost:3000/admin`
+
 - User Management: Remove users from the application.
 - Habit Management: Add/remove pre-defined habits to better usage of the application to the user base.
 
 ### For Users:
+
+Access at: `http://localhost:3000`
 
 - Account Management: Register as a new user and log in to access personalized habit tracking.
 - Habit Assignment: Choose from pre-defined habits set by the admin or create custom habits unique to each user.
@@ -139,4 +143,4 @@ frontend/
 
 - Ensure to review and update the Docker configurations and dependencies as per your project requirements.
 - The `envTEMPLATE` file should be copied and renamed to `.env`, filling in the necessary environment variables for your application.
-- Refer to the documentation within each directory for specific setup and usage instructions.
+- Refer to the code documentation within each file for specific setup and usage instructions.
